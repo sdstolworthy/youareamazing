@@ -1,14 +1,55 @@
-<h1 id="grad1">You are Amazing</h1>
+<div id="container"><h1 id="grad1">You are Amazing</h1></div>
 <style>
+  #container {
+    width: 100%;
+    justify-content: center;
+    flex: 1;
+    flex-direction: row;
+    display:flex;
+  }
   #grad1 {
     background: red;
-    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(
+      left,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -o-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: -moz-linear-gradient(
+      right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
+    background: linear-gradient(
+      to right,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5vw;
     text-align: center;
-}
+    
+    align-self: center;
+  }
 </style>
